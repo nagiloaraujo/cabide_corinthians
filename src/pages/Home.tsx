@@ -4,6 +4,7 @@ import BrutalBackdrop from "@/components/effects/BrutalBackdrop"
 import BootLoader from "@/components/loading/BootLoader"
 import AnatomySection from "@/components/sections/AnatomySection"
 import ClosetBento from "@/components/sections/ClosetBento"
+import GallerySection from "@/components/sections/GallerySection"
 import HeroImpact from "@/components/sections/HeroImpact"
 import ManifestBanner from "@/components/sections/ManifestBanner"
 import ConversionFooter from "@/components/sections/ConversionFooter"
@@ -52,6 +53,7 @@ export default function Home() {
             <HeroImpact />
             <ManifestBanner />
             <AnatomySection />
+            <GallerySection />
             <ClosetBento />
             <WaitlistSection />
             <ConversionFooter />

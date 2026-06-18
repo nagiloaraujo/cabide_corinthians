@@ -31,7 +31,7 @@ export default function ProductShowcase({
       },
       {
         model: "roxo" as const,
-        label: "Roxo",
+        label: "Lilás",
         imageSrc: images?.roxo ?? "/cabide-roxo.png",
       },
       {
@@ -41,7 +41,7 @@ export default function ProductShowcase({
       },
       {
         model: "prata" as const,
-        label: "Prata",
+        label: "Cromado",
         imageSrc: images?.prata ?? "/cabide-prata.png",
       },
     ]
@@ -73,9 +73,9 @@ export default function ProductShowcase({
 
   const subtitle = useMemo(() => {
     if (model === "preto") return "preto pesado. armário de respeito."
-    if (model === "roxo") return "roxo vivo. neon de cria."
+    if (model === "roxo") return "lilás vibrante. presença marcante."
     if (model === "ouro") return "dourado espelhado. luxo de colecionador."
-    if (model === "prata") return "prata cromada. alto contraste."
+    if (model === "prata") return "cromado espelhado. alto contraste."
     return "branco original. clássico e brutal."
   }, [model])
 
@@ -226,7 +226,7 @@ export default function ProductShowcase({
 
                     <div className="mt-7 grid gap-3 text-[12px] font-black uppercase tracking-[0.18em] text-white/70 sm:grid-cols-2">
                       <div className="border border-white/10 bg-black/35 px-4 py-3">gancho reforçado</div>
-                      <div className="border border-white/10 bg-black/35 px-4 py-3">anti-deformação</div>
+                      <div className="border border-white/10 bg-black/35 px-4 py-3">antideformação</div>
                       <div className="border border-white/10 bg-black/35 px-4 py-3">vazado patenteado</div>
                       <div className="border border-white/10 bg-black/35 px-4 py-3">padrão fiel</div>
                     </div>

@@ -29,6 +29,16 @@ html {
   scroll-behavior: smooth;
 }
 
+@keyframes gallery-marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-50% - (var(--marquee-gap, 1rem) / 2)));
+  }
+}
+
 ::selection {
   background: color-mix(in srgb, var(--accent) 30%, transparent);
 }
@@ -75,5 +85,20 @@ html {
     background-size: 52px 52px;
     background-position: center;
     mask-image: radial-gradient(900px 420px at 50% 0%, black 20%, transparent 70%);
+  }
+
+  .gallery-marquee-track {
+    animation: gallery-marquee 95s linear infinite;
+    will-change: transform;
+  }
+
+  .gallery-marquee:hover .gallery-marquee-track {
+    animation-play-state: paused;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gallery-marquee-track {
+    animation: none;
   }
 }

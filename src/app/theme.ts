@@ -50,7 +50,7 @@ export const THEME_CONFIG: Record<ThemeModel, ThemeConfig> = {
   },
   roxo: {
     model: "roxo",
-    label: "Roxo",
+    label: "Lilás",
     accent: "#4B0082",
     accent2: "#0B0016",
     glow: "rgba(75,0,130,0.65)",
@@ -80,7 +80,7 @@ export const THEME_CONFIG: Record<ThemeModel, ThemeConfig> = {
   },
   prata: {
     model: "prata",
-    label: "Prata",
+    label: "Cromado",
     accent: "#BFC7D5",
     accent2: "#BFC7D5",
     glow: "rgba(191,199,213,0.65)",

@@ -27,15 +27,15 @@ export default function AnatomySection() {
     return [
       {
         key: "gancho",
-        title: "Gancho Reforçado de Aço",
-        desc: "puxa firme, segura firme. Sem ceder.",
+        title: "Gancho Reforçado",
+        desc: "apoio firme para sustentar o manto com segurança.",
         x: 52,
         y: 18,
         align: "right",
       },
       {
         key: "curvatura",
-        title: "Curvatura Anti-Deformação",
+        title: "Curvatura Antideformação",
         desc: "ombro sem marca. gola sem esticar.",
         x: 26,
         y: 55,
@@ -87,8 +87,8 @@ export default function AnatomySection() {
               <span className="brutal-outline text-gradient">PERFEITO.</span>
             </h2>
             <p className="mt-4 text-sm leading-relaxed text-white/75 sm:text-base">
-              Passe o mouse no cabide e veja os pontos de engenharia que respeitam camisa de jogo: não estica gola, não
-              marca ombro e não deforma o dry-fit.
+              Passe o mouse no cabide e veja os pontos de engenharia que respeitam camisa de jogo: não estica a gola,
+              não marca o ombro e mantém o caimento do dry-fit.
             </p>
           </div>
         </ConditionalReveal>
@@ -184,7 +184,7 @@ export default function AnatomySection() {
             </div>
 
             <div className="mt-5 border-t border-white/10 pt-4 text-[11px] font-semibold uppercase tracking-[0.28em] text-white/55">
-              X-RAY MODE: passa o mouse e sente a engenharia.
+              X-RAY MODE: passa o mouse e veja a engenharia.
             </div>
           </div>
 
@@ -197,7 +197,7 @@ export default function AnatomySection() {
                   <ul className="mt-3 space-y-2 font-semibold uppercase tracking-[0.16em] text-white/55">
                     <li>marcação no ombro</li>
                     <li>gola esticada</li>
-                    <li>plástico frágil</li>
+                    <li>acabamento básico</li>
                     <li>sem identidade</li>
                   </ul>
                 </div>
@@ -206,12 +206,12 @@ export default function AnatomySection() {
                     Cabide oficial
                   </div>
                   <div className="mt-2 text-[11px] font-bold uppercase tracking-[0.22em] text-white/88">
-                    Protege o manto sem marcar, deformar ou perder identidade visual.
+                    Protege o manto sem marcar, sem deformar e com presença visual de coleção.
                   </div>
                   <ul className="mt-4 space-y-3 text-[13px] font-black uppercase tracking-[0.16em] text-white">
                     <li className="border-l-2 border-[color:var(--accent)] pl-3">curvatura anatômica</li>
                     <li className="border-l-2 border-[color:var(--accent)] pl-3">respeita o dry-fit</li>
-                    <li className="border-l-2 border-[color:var(--accent)] pl-3">estrutura premium</li>
+                    <li className="border-l-2 border-[color:var(--accent)] pl-3">estrutura reforçada</li>
                     <li className="border-l-2 border-[color:var(--accent)] pl-3">vazado Corinthians</li>
                   </ul>
                 </div>

@@ -4,7 +4,7 @@ import Button from "@/components/ui/Button"
 import { cn } from "@/lib/utils"
 import { useEffect, useMemo, useState } from "react"
 
-type Edition = "Branco" | "Preto" | "Roxo" | "Dourado" | "Prata"
+type Edition = "Branco" | "Preto" | "Lilás" | "Dourado" | "Cromado"
 
 type Lead = {
   name: string
@@ -18,17 +18,17 @@ const STORAGE_KEY = "cabide.waitlistLeads"
 
 function editionFromModel(model: ThemeModel): Edition {
   if (model === "preto") return "Preto"
-  if (model === "roxo") return "Roxo"
+  if (model === "roxo") return "Lilás"
   if (model === "ouro") return "Dourado"
-  if (model === "prata") return "Prata"
+  if (model === "prata") return "Cromado"
   return "Branco"
 }
 
 function modelFromEdition(edition: Edition): ThemeModel {
   if (edition === "Preto") return "preto"
-  if (edition === "Roxo") return "roxo"
+  if (edition === "Lilás") return "roxo"
   if (edition === "Dourado") return "ouro"
-  if (edition === "Prata") return "prata"
+  if (edition === "Cromado") return "prata"
   return "default"
 }
 
@@ -174,9 +174,9 @@ export default function WaitlistForm() {
           >
             <option value="Branco">Branco</option>
             <option value="Preto">Preto</option>
-            <option value="Roxo">Roxo</option>
+            <option value="Lilás">Lilás</option>
             <option value="Dourado">Dourado</option>
-            <option value="Prata">Prata</option>
+            <option value="Cromado">Cromado</option>
           </select>
         </label>
       </div>

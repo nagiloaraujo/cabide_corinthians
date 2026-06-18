@@ -43,8 +43,8 @@ export default function HeroSection() {
 
           <Reveal delay={0.14}>
             <p className="mt-5 max-w-2xl text-base leading-relaxed text-white/70 sm:text-lg">
-              O primeiro cabide premium do Brasil projetado exclusivamente para a Fiel Torcida.
-              Engenharia anti-deformação com a identidade do Coringão.
+              O primeiro cabide premium do Brasil projetado exclusivamente para a Fiel Torcida. Engenharia
+              antideformação com a identidade do Coringão.
             </p>
           </Reveal>
 

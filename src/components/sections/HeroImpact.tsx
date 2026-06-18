@@ -31,7 +31,8 @@ export default function HeroImpact() {
           </ConditionalReveal>
           <ConditionalReveal delay={0.12} y={18}>
             <p className="mx-auto mt-5 max-w-3xl text-sm leading-relaxed text-white/75 sm:text-base">
-              Manto de respeito não fica em cabide qualquer. Seu manto de jogo merece um suporte à altura da sua paixão. O
+              Manto de respeito não fica em um cabide qualquer. Seu manto de jogo merece um suporte à altura da sua
+              paixão. O
               primeiro cabide premium personalizado do Brasil feito para quem vive o Corinthians.
             </p>
           </ConditionalReveal>
